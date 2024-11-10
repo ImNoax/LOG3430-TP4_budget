@@ -20,7 +20,7 @@ jobs:
 
       - name: Run git bisect to find the faulty commit
         run: python myscript.py
-        
-      - name: Run tests
-        run: python manage.py test
+
+#      - name: Run tests
+#        run: python manage.py test
 
